@@ -1,0 +1,15 @@
+{
+    "currentVersion": "0.0.0",
+    "allVersions": ["0.0.0"],
+    "versionChanges" : {
+        "0.0.0": {
+            "animations": false,
+            "dependencies": false,
+            "images": false,
+            "shaders": false,
+            "executable": false,
+            "dlls": false,
+            "updater": false
+        }
+    }
+}

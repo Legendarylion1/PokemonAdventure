@@ -1,0 +1,4345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{e02be4bc-7540-4cea-ace8-f104219cfc35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vendor\stb_image.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\BattleAnimations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menu\Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menu\menuData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menu\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\Attack\Attack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\Item\Item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\Status\Status.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\SimulationCommands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Characters\Pokemon\Pokemon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Characters\Pokemon\PokemonSpecies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Characters\Trainer\ItemStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Characters\Trainer\NPT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Characters\Trainer\Trainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Characters\CharacterMover.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ExternalData\DataManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ExternalData\Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ExternalData\saveData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Handlers\EncounterHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Handlers\InteractionHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Handlers\PauseHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Handlers\StartupHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Input\Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Input\InputData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GlobalData\globalIDs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GlobalData\helperFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Buffers\EBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Buffers\VAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Buffers\VBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Shader\ShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Animator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Colors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\DialogueRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\PositionalData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\TextData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\TextRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map\MapHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map\MapSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Texture\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Texture\TextureLocations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Interactions\Story.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Interactions\PC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\OldBattleSimulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\Battle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\BattleFunctions\BattleAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\BattleFunctions\BattleDataGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\BattleFunctions\BattleDataSimulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\BattleFunctions\BattleMenuGraphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\BattleFunctions\BattleExperience.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Pokedex\Pokedex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Pokedex\PokedexRingBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\TextureCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menu\MenuFunction\MenuFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\OldAnimator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Semaphore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Interactions\StoryBoard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\GLEW\include\GL\eglew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\GLEW\include\GL\glew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\GLEW\include\GL\glxew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\GLEW\include\GL\wglew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\GLFW\include\GLFW\glfw3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\GLFW\include\GLFW\glfw3native.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\exponential.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\fwd.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\geometric.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\glm.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\integer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\mat2x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\mat2x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\mat2x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\mat3x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\mat3x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\mat3x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\mat4x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\mat4x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\mat4x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\matrix.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\packing.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\trigonometric.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\vec2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\vec3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\vec4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\vector_relational.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\simd\vector_relational.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\simd\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\simd\exponential.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\simd\geometric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\simd\integer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\simd\matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\simd\neon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\simd\packing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\simd\platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\simd\trigonometric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\associated_min_max.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\bit.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\closest_point.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\color_encoding.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\color_space.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\color_space_YCoCg.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\compatibility.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\component_wise.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\dual_quaternion.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\easing.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\euler_angles.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\extend.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\extended_min_max.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\exterior_product.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\fast_exponential.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\fast_square_root.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\fast_trigonometry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\functions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\gradient_paint.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\handed_coordinate_space.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\hash.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\integer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\intersect.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\io.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\log_base.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\matrix_cross_product.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\matrix_decompose.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\matrix_factorisation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\matrix_interpolation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\matrix_major_storage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\matrix_operation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\matrix_query.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\matrix_transform_2d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\mixed_product.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\norm.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\normal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\normalize_dot.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\number_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\optimum_pow.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\orthonormalize.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\perpendicular.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\polar_coordinates.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\projection.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\quaternion.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\range.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\raw_data.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\rotate_normalized_axis.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\rotate_vector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\scalar_multiplication.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\scalar_relational.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\spline.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\std_based_type.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\string_cast.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\texture.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\transform.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\transform2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\type_aligned.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\type_trait.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\vec_swizzle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\vector_angle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\vector_query.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtx\wrap.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\bitfield.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\color_space.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\constants.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\epsilon.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\integer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\matrix_access.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\matrix_integer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\matrix_inverse.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\matrix_transform.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\noise.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\packing.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\quaternion.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\random.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\reciprocal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\round.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\type_aligned.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\type_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\type_ptr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\ulp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\gtc\vec1.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_clip_space.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double2x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double2x2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double2x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double2x3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double2x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double2x4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double3x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double3x2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double3x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double3x3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double3x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double3x4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double4x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double4x2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double4x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double4x3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double4x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_double4x4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float2x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float2x2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float2x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float2x3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float2x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float2x4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float3x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float3x2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float3x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float3x3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float3x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float3x4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float4x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float4x2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float4x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float4x3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float4x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_float4x4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_projection.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_relational.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\matrix_transform.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\quaternion_common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\quaternion_double.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\quaternion_double_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\quaternion_exponential.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\quaternion_float.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\quaternion_float_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\quaternion_geometric.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\quaternion_relational.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\quaternion_transform.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\quaternion_trigonometric.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\scalar_common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\scalar_constants.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\scalar_int_sized.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\scalar_integer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\scalar_relational.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\scalar_uint_sized.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\scalar_ulp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_bool1.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_bool1_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_bool2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_bool2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_bool3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_bool3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_bool4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_bool4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_double1.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_double1_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_double2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_double2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_double3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_double3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_double4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_double4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_float1.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_float1_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_float2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_float2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_float3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_float3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_float4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_float4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_int1.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_int1_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_int2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_int2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_int3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_int3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_int4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_int4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_integer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_relational.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_uint1.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_uint1_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_uint2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_uint2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_uint3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_uint3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_uint4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_uint4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\ext\vector_ulp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\_features.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\_fixes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\_noise.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\_swizzle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\_swizzle_func.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\_vectorize.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\compute_common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\compute_vector_relational.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\qualifier.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\setup.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\type_float.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\type_half.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\type_mat2x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\type_mat2x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\type_mat2x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\type_mat3x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\type_mat3x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\type_mat3x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\type_mat4x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\type_mat4x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\type_mat4x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\type_quat.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\type_vec1.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\type_vec2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\type_vec3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glm\detail\type_vec4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\Attack\BaseAttack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\Attack\AttackTypes\headers\FireAttacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\Attack\AttackTypes\headers\WaterAttacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\Attack\AttackTypes\headers\GrassAttacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\Attack\AttackTypes\headers\EffectAttacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\Status\BaseStatus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\Status\MajorStatus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\Status\MinorStatus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\Item\BaseItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\Item\ItemTypes\PokeballItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\Item\ItemTypes\HealItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Battle\Item\ItemTypes\StatBoostItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map\WorldMap\Mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map\WorldMap\MapPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map\WorldMap\InteractiveMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Interactions\PokeMart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menu\MenuFunction\MenuSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\AnimationData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vendor\stb_image.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menu\Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menu\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\Attack\Attack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\Item\Item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\Status\Status.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Characters\Pokemon\Pokemon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Characters\Trainer\ItemStorage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Characters\Trainer\Trainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Characters\CharacterMover.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ExternalData\DataManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Handlers\EncounterHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Handlers\InteractionHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Handlers\PauseHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Handlers\StartupHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Input\Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Buffers\EBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Buffers\VAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Buffers\VBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Shader\ShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\TextRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\MapHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\MapSection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Texture\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Interactions\Story.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Interactions\PC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\OldBattleSimulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\Battle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\BattleFunctions\BattleDataSimulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\BattleFunctions\BattleDataGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\BattleFunctions\BattleAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\BattleFunctions\BattleMenuGraphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\BattleFunctions\BattleExperience.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Pokedex\Pokedex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Pokedex\PokedexRingBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\TextureCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Animator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menu\MenuFunction\Keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\MapHandlerContent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\glm\detail\glm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\Attack\BaseAttack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\Attack\AttackTypes\FireAttack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\Attack\AttackTypes\EffectAttacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\Attack\AttackTypes\GrassAttacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\Attack\AttackTypes\WaterAttacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\Status\BaseStatus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\Status\MajorStatus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\Status\MinorStatus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\Item\BaseItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\Item\ItemTypes\PokeballItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\Item\ItemTypes\HealItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Battle\Item\ItemTypes\StatBoostItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\WorldMap\InteractiveMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\WorldMap\MapPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\WorldMap\Mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Interactions\PokeMart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menu\MenuFunction\MenuSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\ExternalData\emailScript.py" />
+    <None Include="src\Graphics\Shader\default.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\Graphics\Shader\default.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\associated_min_max.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\bit.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\closest_point.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\color_encoding.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\color_space.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\color_space_YCoCg.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\common.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\compatibility.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\component_wise.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\dual_quaternion.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\easing.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\euler_angles.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\extend.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\extended_min_max.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\exterior_product.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\fast_exponential.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\fast_square_root.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\fast_trigonometry.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\float_notmalize.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\functions.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\gradient_paint.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\handed_coordinate_space.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\hash.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\integer.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\intersect.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\io.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\log_base.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\matrix_cross_product.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\matrix_decompose.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\matrix_factorisation.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\matrix_interpolation.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\matrix_major_storage.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\matrix_operation.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\matrix_query.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\matrix_transform_2d.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\mixed_product.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\norm.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\normal.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\normalize_dot.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\number_precision.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\optimum_pow.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\orthonormalize.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\perpendicular.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\polar_coordinates.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\projection.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\raw_data.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\rotate_normalized_axis.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\rotate_vector.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\scalar_relational.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\spline.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\std_based_type.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\string_cast.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\texture.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\transform.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\transform2.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\type_aligned.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\type_trait.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\vector_angle.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\vector_query.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtx\wrap.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\bitfield.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\color_space.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\constants.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\epsilon.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\integer.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\matrix_access.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\matrix_inverse.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\matrix_transform.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\noise.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\packing.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\quaternion_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\random.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\reciprocal.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\round.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\type_precision.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\type_ptr.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\gtc\ulp.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\matrix_clip_space.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\matrix_common.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\matrix_projection.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\matrix_relational.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\matrix_transform.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\quaternion_common.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\quaternion_common_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\quaternion_exponential.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\quaternion_geometric.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\quaternion_relational.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\quaternion_transform.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\quaternion_trigonometric.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\scalar_common.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\scalar_constants.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\scalar_integer.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\scalar_relational.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\scalar_ulp.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\vector_common.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\vector_integer.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\vector_relational.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\ext\vector_ulp.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\func_common.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\func_common_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\func_exponential.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\func_exponential_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\func_geometric.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\func_geometric_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\func_integer.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\func_integer_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\func_matrix.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\func_matrix_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\func_packing.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\func_packing_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\func_trigonometric.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\func_trigonometric_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\func_vector_relational.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\func_vector_relational_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_half.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_mat2x2.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_mat2x3.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_mat2x4.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_mat3x2.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_mat3x3.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_mat3x4.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_mat4x2.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_mat4x3.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_mat4x4.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_mat4x4_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_quat.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_quat_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_vec1.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_vec2.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_vec3.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_vec4.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\glm\detail\type_vec4_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\GLFW\lib-static-ucrt\glfw3.dll" />
+    <None Include="Dependencies\GLFW\lib-mingw-w64\glfw3.dll" />
+    <None Include="Dependencies\GLEW\bin\Release\Win32\glew32.dll" />
+    <None Include="Dependencies\GLEW\bin\Release\Win32\glewinfo.exe" />
+    <None Include="Dependencies\GLEW\bin\Release\Win32\visualinfo.exe" />
+    <None Include="Dependencies\GLEW\bin\Release\x64\glew32.dll" />
+    <None Include="Dependencies\GLEW\bin\Release\x64\glewinfo.exe" />
+    <None Include="Dependencies\GLEW\bin\Release\x64\visualinfo.exe" />
+    <None Include="Dependencies\GLEW\doc\advanced.html" />
+    <None Include="Dependencies\GLEW\doc\basic.html" />
+    <None Include="Dependencies\GLEW\doc\build.html" />
+    <None Include="Dependencies\GLEW\doc\credits.html" />
+    <None Include="Dependencies\GLEW\doc\glew.css" />
+    <None Include="Dependencies\GLEW\doc\glew.html" />
+    <None Include="Dependencies\GLEW\doc\glxew.html" />
+    <None Include="Dependencies\GLEW\doc\index.html" />
+    <None Include="Dependencies\GLEW\doc\install.html" />
+    <None Include="Dependencies\GLEW\doc\log.html" />
+    <None Include="Dependencies\GLEW\doc\wglew.html" />
+    <None Include="Dependencies\GLFW\lib-vc2022\glfw3.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_19.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_20.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_21.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_22.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_23.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_24.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_25.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_26.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_27.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_28.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_29.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_30.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_31.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_32.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_33.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_34.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_35.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_36.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_37.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_38.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_39.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_40.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_41.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_42.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_43.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_44.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_45.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\AganiteIntro\AganiteIntro_46.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeGreatball\EscapeGreatball_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeGreatball\EscapeGreatball_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeGreatball\EscapeGreatball_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeGreatball\EscapeGreatball_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeGreatball\EscapeGreatball_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeGreatball\EscapeGreatball_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeGreatball\EscapeGreatball_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeGreatball\EscapeGreatball_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeGreatball\EscapeGreatball_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeMasterball\EscapeMasterball_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeMasterball\EscapeMasterball_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeMasterball\EscapeMasterball_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeMasterball\EscapeMasterball_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeMasterball\EscapeMasterball_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeMasterball\EscapeMasterball_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeMasterball\EscapeMasterball_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeMasterball\EscapeMasterball_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeMasterball\EscapeMasterball_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapePokeball\EscapePokeball_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapePokeball\EscapePokeball_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapePokeball\EscapePokeball_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapePokeball\EscapePokeball_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapePokeball\EscapePokeball_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapePokeball\EscapePokeball_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapePokeball\EscapePokeball_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapePokeball\EscapePokeball_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapePokeball\EscapePokeball_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeUltraball\EscapeUltraball_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeUltraball\EscapeUltraball_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeUltraball\EscapeUltraball_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeUltraball\EscapeUltraball_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeUltraball\EscapeUltraball_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeUltraball\EscapeUltraball_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeUltraball\EscapeUltraball_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeUltraball\EscapeUltraball_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\EscapeUltraball\EscapeUltraball_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_19.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_20.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_21.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_22.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_23.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_24.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_25.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_26.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_27.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_28.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_29.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_30.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_31.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_32.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_33.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_34.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_35.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_36.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_37.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_38.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_39.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_40.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_41.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_42.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_43.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_44.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_45.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_46.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_47.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_48.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_49.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeIn\FadeIn_50.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_19.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_20.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_21.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_22.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_23.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_24.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_25.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_26.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_27.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_28.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_29.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_30.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_31.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_32.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_33.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_34.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_35.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_36.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_37.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_38.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_39.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_40.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_41.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_42.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_43.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_44.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_45.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_46.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_47.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_48.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_49.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\FadeOut\FadeOut_50.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_19.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_20.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_21.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_22.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_23.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_24.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_25.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_26.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_27.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_28.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_29.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_30.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_31.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_32.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_33.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_34.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_35.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_36.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_37.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_38.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_39.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_40.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_41.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_42.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_43.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_44.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_45.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_46.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_47.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_48.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_49.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_50.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_51.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_52.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_53.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_54.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_55.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_56.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_57.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_58.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_59.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_60.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_61.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_62.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_63.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_64.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_65.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_66.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_67.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_68.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_69.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_70.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_71.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_72.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_73.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_74.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_75.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_76.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_77.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_78.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_79.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\grassEncounter\grassEncounter_80.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_19.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_20.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_21.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_22.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_23.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_24.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_25.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_26.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_27.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_28.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_29.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_30.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_31.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_32.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_33.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_34.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_35.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_36.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_37.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_38.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_39.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_40.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_41.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\LegendaryStudio\LegendaryStudio_42.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_19.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_20.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_21.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_22.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_23.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_24.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_25.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_26.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_27.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_28.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_29.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_30.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_31.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_32.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_33.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_34.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_35.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_36.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_37.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_38.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_39.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_40.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_41.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_42.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_43.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_44.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_45.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_46.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_47.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_48.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_49.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_50.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_51.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_52.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_53.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_54.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_55.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_56.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_57.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_58.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_59.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_60.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_61.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_62.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_63.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_64.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_65.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_66.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_67.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_68.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_69.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_70.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_71.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_72.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_73.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_74.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_75.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_76.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_77.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_78.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_79.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_80.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_81.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_82.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_83.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_84.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_85.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_86.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_87.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_88.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_89.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_90.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_91.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_92.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_93.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_94.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_95.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_96.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_97.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_98.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_99.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_100.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_101.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_102.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_103.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_104.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowGreatball\ThrowGreatball_105.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_19.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_20.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_21.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_22.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_23.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_24.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_25.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_26.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_27.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_28.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_29.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_30.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_31.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_32.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_33.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_34.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_35.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_36.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_37.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_38.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_39.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_40.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_41.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_42.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_43.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_44.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_45.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_46.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_47.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_48.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_49.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_50.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_51.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_52.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_53.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_54.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_55.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_56.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_57.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_58.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_59.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_60.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_61.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_62.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_63.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_64.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_65.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_66.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_67.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_68.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_69.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_70.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_71.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_72.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_73.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_74.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_75.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_76.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_77.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_78.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_79.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_80.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_81.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_82.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_83.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_84.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_85.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_86.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_87.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_88.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_89.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_90.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_91.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_92.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_93.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_94.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_95.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_96.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_97.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_98.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_99.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_100.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_101.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_102.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_103.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_104.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowMasterball\ThrowMasterball_105.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_19.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_20.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_21.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_22.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_23.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_24.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_25.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_26.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_27.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_28.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_29.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_30.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_31.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_32.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_33.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_34.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_35.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_36.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_37.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_38.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_39.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_40.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_41.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_42.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_43.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_44.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_45.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_46.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_47.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_48.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_49.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_50.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_51.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_52.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_53.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_54.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_55.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_56.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_57.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_58.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_59.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_60.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_61.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_62.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_63.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_64.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_65.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_66.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_67.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_68.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_69.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_70.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_71.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_72.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_73.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_74.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_75.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_76.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_77.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_78.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_79.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_80.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_81.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_82.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_83.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_84.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_85.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_86.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_87.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_88.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_89.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_90.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_91.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_92.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_93.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_94.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_95.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_96.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_97.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_98.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_99.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_100.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_101.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_102.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_103.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_104.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowPokeball\ThrowPokeball_105.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_19.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_20.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_21.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_22.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_23.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_24.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_25.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_26.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_27.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_28.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_29.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_30.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_31.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_32.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_33.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_34.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_35.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_36.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_37.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_38.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_39.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_40.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_41.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_42.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_43.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_44.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_45.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_46.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_47.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_48.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_49.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_50.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_51.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_52.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_53.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_54.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_55.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_56.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_57.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_58.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_59.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_60.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_61.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_62.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_63.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_64.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_65.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_66.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_67.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_68.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_69.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_70.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_71.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_72.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_73.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_74.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_75.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_76.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_77.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_78.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_79.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_80.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_81.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_82.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_83.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_84.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_85.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_86.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_87.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_88.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_89.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_90.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_91.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_92.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_93.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_94.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_95.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_96.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_97.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_98.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_99.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_100.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_101.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_102.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_103.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_104.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\ThrowUltraball\ThrowUltraball_105.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpGain\XpGain_19.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Animations\XpLevelUpUI\XpLevelUpUI_18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\HVRoute1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\test.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\test2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\test3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\testj.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\transparent.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\battleChat.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\boy_girl_selection_boy_highlight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\boy_girl_selection_girl_highlight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\boy_symbol.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\deleteConfirmation.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\girl_symbol.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\imageFrame.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\imageFrameHighlight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\levelUp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\mapImage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\mapOverlay.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\moveOutline.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\normalChat.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nurseGreatball_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nurseGreatball_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nurseGreatball_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nurseGreatball_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nurseGreatball_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nurseMasterball_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nurseMasterball_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nurseMasterball_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nurseMasterball_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nurseMasterball_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nursePokeball_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nursePokeball_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nursePokeball_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nursePokeball_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nursePokeball_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nurseUltraball_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nurseUltraball_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nurseUltraball_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nurseUltraball_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\nurseUltraball_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\pokedexCaught.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\pokedexDownArrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\pokedexHighlightButton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\pokedexHighlightSort.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\pokedexImage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\pokedexNotCaught.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\pokedexOverlay.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\overlays\pokedexUpArrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\aganiteIntro.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\battle_items.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\battleUI.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\battleUI_Backup.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\evolution.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\intro_links.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\learnMove.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\LegendaryStudio.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\LegendaryStudioCrown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\newPokemon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\pauseMenu.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\pc.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\pokedexMenu.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\pokemonRoster.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\pokemonSummary.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\professorM.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\selectSave.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\selectSave2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\set_player_name.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Backgrounds\Scenes\settings.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Badges\dragonBadge.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Badges\fireBadge.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Badges\flyingBadge.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Badges\grassBadge.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Badges\iceBadge.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Badges\normalBadge.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Badges\rockBadge.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Badges\waterBadge.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Characters\aiSprite.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Characters\female_player.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Characters\male_player.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Characters\Mom.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Characters\professor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Characters\security_officer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Characters\Shop_Guy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Maps\first_town_route_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Maps\HVRoute1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Maps\PokeCenter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Maps\PokeMart.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Maps\profLab.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Maps\startHouseBaseFloor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Maps\startHouseRoom.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Aganite_Front.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Baroot_Back.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Baroot_Front.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Bery_Back.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Bery_Front.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Fitty_Back.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Fitty_Front.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\bugType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\darkType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\dragonType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\electricType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\fairyType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\fightingType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\fireType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\flyingType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\ghostType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\grassType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\groundType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\iceType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\normalType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\poisonType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\psychicType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\rockType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\steelType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Typing\waterType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Text\alphaNumerics.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Text\alphaNumerics2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Text\alphaNumerics3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Text\alphaNumericsBlack.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Text\alphaNumericsBlack2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Text\alphaNumericsBlack3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Dependencies\GLEW\doc\github.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Dependencies\GLEW\doc\glew.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Dependencies\GLEW\doc\new.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Dependencies\GLEW\doc\ogl_sm.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Dependencies\GLEW\doc\travis.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Status\sleep.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Status\burned.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Status\frozen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Status\paralyzed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Pokemon\Status\posioned.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Dependencies\GLEW\lib\Release\Win32\glew32.lib" />
+    <Library Include="Dependencies\GLEW\lib\Release\Win32\glew32s.lib" />
+    <Library Include="Dependencies\GLFW\lib-vc2022\glfw3.lib" />
+    <Library Include="Dependencies\GLFW\lib-static-ucrt\glfw3dll.lib" />
+    <Library Include="Dependencies\GLFW\lib-mingw-w64\libglfw3.a" />
+    <Library Include="Dependencies\GLFW\lib-mingw-w64\libglfw3dll.a" />
+    <Library Include="Dependencies\GLEW\lib\Release\x64\glew32.lib" />
+    <Library Include="Dependencies\GLEW\lib\Release\x64\glew32s.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Dependencies\glm\CMakeLists.txt" />
+    <Text Include="Dependencies\GLEW\doc\glew.txt" />
+    <Text Include="Dependencies\GLEW\doc\gpl.txt" />
+    <Text Include="Dependencies\GLEW\doc\khronos.txt" />
+    <Text Include="Dependencies\GLEW\doc\mesa.txt" />
+    <Text Include="Dependencies\GLEW\LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="PokemonAdventure.manifest" />
+  </ItemGroup>
+</Project>

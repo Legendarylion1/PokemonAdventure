@@ -1,0 +1,13 @@
+CC = i686-w64-mingw32-g++
+FLAGS = -std=c++14 -w
+BIT_VERSION = -m32
+INCLUDE_DIRECTORIES = -IDependencies/GLFW/include -IDependencies/GLEW/include -IDependencies -Ivendor 
+LINKER_DIRECTORIES = -L/Dependencies/GLFW/lib-static-ucrt -L/Dependencies/GLEW/lib/Release/Win32/ 
+LINKER_STATC_LIBS = -l:opengl32.lib -l:glew32s.lib 
+CPP_FILES = src/main.cpp src/Game/Interactions/Cutscene.cpp src/Game/Handlers/StartupHandler.cpp src/ExternalData/DataManager.cpp src/Game/Handlers/PauseHandler.cpp src/Game/Handlers/InteractionHandler.cpp src/Game/Interactions/PC.cpp src/Map/MapSection.cpp src/Map/MapHandler.cpp src/Characters/CharacterMover.cpp src/Game/Input/Input.cpp src/Menu/Scene.cpp src/Menu/Menu.cpp src/Battle/BattleSimulator.cpp src/Battle/Attack/Attack.cpp src/Battle/Status/Status.cpp src/Graphics/Buffers/EBO.cpp src/Graphics/Buffers/VBO.cpp src/Graphics/Buffers/VAO.cpp src/Graphics/TextRenderer.cpp src/Graphics/Shader/ShaderClass.cpp vendor/stb_image.cpp src/Graphics/Texture/Texture.cpp src/Graphics/Renderer.cpp src/Characters/Pokemon/Pokemon.cpp src/Battle/Item/Item.cpp src/Characters/Trainer/ItemStorage.cpp src/Characters/Trainer/Trainer.cpp src/Game/Handlers/EncounterHandler.cpp src/Game/Game.cpp 
+LINKER_DYNAMIC_LIBS = Dependencies/GLFW/lib-mingw-w64/glfw3.dll 
+PREPROCESSOR = -DWIN32 -DGLEW_STATIC -DGLFW_DLL 
+EXECUTABLE = -o PokemonAdventure.exe
+
+target:
+	${CC} ${FLAGS} ${BIT_VERSION} ${INCLUDE_DIRECTORIES} ${LINKER_DIRECTORIES} ${LINKER_STATC_LIBS} ${CPP_FILES} ${LINKER_DYNAMIC_LIBS} ${PREPROCESSOR} ${EXECUTABLE}

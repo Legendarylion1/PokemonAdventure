@@ -1,0 +1,141 @@
+body, html {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    height: 100vh;            /* Make sure the body takes the full height of the viewport */
+    margin: 0;                /* Remove default margin */
+    background-color: #6babff; /* Background color for better visibility */
+}
+
+pre {
+    tab-size: 4; /* Adjust this value to make the tab spacing smaller or larger */
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 200px; /* Adjust gap between forms */
+}
+
+.leftAlignForm {
+    display: flex;
+    flex-direction: column;
+    align-items: left;     /* Center all form elements horizontally */
+    padding: 20px;
+    background-color: #6babff; /* Form background color */
+    border-radius: 8px;      /* Optional: add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    width: 90%;
+    max-width: 2000px;        /* Set max width for the form */
+    height: 75vh;            /* Set a fixed height for the form */
+    overflow-y:auto;        /* Enable vertical scrolling */
+    overflow-x: hidden;
+}
+
+.changeLogForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;     /* Center all form elements horizontally */
+    padding: 20px;
+    background-color: #6babff; /* Form background color */
+    border-radius: 8px;      /* Optional: add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    width: 90%;
+    max-width: 800px;        /* Set max width for the form */
+    height: 75vh;            /* Set a fixed height for the form */
+    overflow-y:auto;        /* Enable vertical scrolling */
+    overflow-x: hidden;
+}
+
+.addition {
+    border: 2px solid #4CAF50;  /* Green border */
+    padding: 15px;               /* Adds padding inside the container */
+    margin-bottom: 20px;         /* Adds space below each feature */
+    border-radius: 8px;          /* Optional: rounded corners */
+    background-color: #f9f9f9;   /* Optional: light background */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* Optional: adds a subtle shadow */
+    display: block;              /* Ensure the container is treated as a block-level element */
+    min-width: 210px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.featureDetails {
+    width: 100%; /* Ensure that the inner details expand to the full width of the container */
+    overflow: hidden; /* Hide any overflowing content to maintain a clean layout */
+    display: block;
+}
+
+.hiddenName {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%; /* Ensure this element takes up the full width of its parent */
+    white-space: nowrap; /* Prevent the text from wrapping */
+    overflow: hidden;    /* Hide any overflowing content */
+    text-overflow: ellipsis; /* Add ellipsis if text overflows */
+}
+
+.sectionTitle
+{
+    font-size: small;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+h1, h2, h3 {
+    text-align: center;      /* Center the headers */
+}
+
+label {
+    margin-bottom: 5px;       /* Space between label and input */
+}
+
+input[type="text"], button {
+    margin-bottom: 10px;      /* Space between inputs and buttons */
+}
+
+/* Style checkboxes to align better */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.addButton {
+    cursor: pointer;         /* Make the button look clickable */
+    padding: 8px 16px;        /* Add some padding for better button size */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.addButton:hover {
+    background-color: #0056b3;
+}
+
+.removeButton {
+    cursor: pointer;         /* Make the button look clickable */
+    padding: 8px 16px;        /* Add some padding for better button size */
+    background-color: #e90537;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.removeButton:hover {
+    background-color: #a70024;
+}
+
+.submitButton {
+    cursor: pointer;         /* Make the button look clickable */
+    padding: 8px 16px;        /* Add some padding for better button size */
+    background-color: #07b310;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.submitButton:hover {
+    background-color: #068a0d;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Change Log Builder</title>
+        <link rel="stylesheet" href="changeLogBuilder.css">
+    </head>
+        <body>
+            <div class="form-container">
+                <div>
+                    
+                    <div style="display: flex; justify-content: center; width: 100%;">
+                        <h1>Json Preview</h1>
+                    </div>
+
+                    <form class="leftAlignForm">
+                        <pre id="jsonID"></pre>
+                    </form>
+                </div>
+
+                <div>
+
+                    <div style="display: flex; justify-content: center; width: 100%;">
+                        <h1>Change Log Builder</h1>
+                    </div>
+
+                    <form class="changeLogForm">
+                    
+                        <h2>What Version</h2>
+                    
+                        <div style="display: flex; align-items: flex-end; gap: 0px;">
+                            <div style="display: flex; flex-direction: column; align-items: center;">
+                                <label for="major">Major</label>
+                                <input type="text" id="major" style="width: 25px;" type="number" value="0">
+                            </div>
+                            
+                            <!-- Period aligned with the bottom of the input -->
+                            <div style="font-size: 50px; vertical-align: bottom; padding: 0 2px;">.</div>
+                        
+                            <div style="display: flex; flex-direction: column; align-items: center;">
+                                <label for="minor">Minor</label>
+                                <input type="text" id="minor" style="width: 25px;" type="number" value="0">
+                            </div> 
+                        
+                            <!-- Period aligned with the bottom of the input -->
+                            <div style="font-size: 50px; vertical-align: bottom; padding: 0 2px;">.</div>
+                        
+                            <div style="display: flex; flex-direction: column; align-items: center;">
+                                <label for="bug">Bug</label>
+                                <input type="text" id="bug" style="width: 25px;" type="number" value="0">
+                            </div>
+                        </div>
+                        
+                        <h2>What Changed</h2>
+
+                        <div>
+
+                            <input type="checkbox" id="animations" name="animations">
+                            <label for="animations"> Animations</label><br>
+                        
+                            <input type="checkbox" id="dependencies" name="dependencies">
+                            <label for="dependencies"> Dependencies</label><br>
+                        
+                            <input type="checkbox" id="images" name="images">
+                            <label for="images"> Images</label><br>
+                        
+                            <input type="checkbox" id="shaders" name="shaders">
+                            <label for="shaders"> Shaders</label><br>
+                        
+                            <input type="checkbox" id="executable" name="executable">
+                            <label for="executable"> Executable</label><br>
+                        
+                            <input type="checkbox" id="dlls" name="dlls">
+                            <label for="dlls"> Dlls</label><br>
+                        
+                            <input type="checkbox" id="updater" name="updater">
+                            <label for="updater"> Updater</label><br>
+
+                        </div>
+                    
+                        <h2>Patch Notes</h2>
+
+                        <h3>Description</h3>
+                        <input type="text" id="description">
+                    
+                        <h3>Features Added</h3>
+                        <div id="featureDiv"></div>
+                        <button type="button" id = "addFeature" class = "addButton">Add Feature</button>
+                    
+                        <h3>Pokemon Added</h3>
+                        <div id="pokemonDiv"></div>
+                        <button type="button" id = "addPokemon" class = "addButton">Add Pokemon</button>
+                    
+                        <h3>Move Added</h3>
+                        <div id="moveDiv"></div>
+                        <button type="button" id = "addMove" class = "addButton">Add Move</button>
+                    
+                        <h3>Bugs Fixed</h3>
+                        <div id="bugDiv"></div>
+                        <button type="button" id = "addBug" class = "addButton">Add Bug</button>
+                        
+                    </form>
+
+                    <div style="display: flex; justify-content: center; width: 100%; padding-top: 5px;">
+                        <button type="submit" id="submitButton" class="submitButton">Submit</button>
+                    </div>
+                </div>
+
+                <div>
+
+                    <div style="display: flex; justify-content: center; width: 100%;">
+                        <h1>Markdown Preview</h1>
+                    </div>
+
+                    <form class="leftAlignForm">
+                        <github-md id="markdownID"></github-md>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag.js"></script> 
+
+        <script src="changeLogBuilder.js" defer></script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+/Images/Tiled
+/Images/Discord
+/Images/Characters/customization
+save1.data
+save2.data
+save3.data
+src/ExternalData/emailAccounts.py
+src/ExternalData/emailScript.py
+Test.py
+/.vs
+/Debug
+/Release

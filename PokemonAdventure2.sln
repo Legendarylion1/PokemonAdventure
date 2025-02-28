@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PokemonAdventure2", "PokemonAdventure2.vcxproj", "{F512D8E4-3926-4B98-A5B3-60F51BEC8E90}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PokemonAdventureSetup", "..\PokemonAdventureSetup\PokemonAdventureSetup.vdproj", "{C95A161C-84B1-4247-90F9-78405DF9D590}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F512D8E4-3926-4B98-A5B3-60F51BEC8E90}.Debug|x64.ActiveCfg = Debug|x64
+		{F512D8E4-3926-4B98-A5B3-60F51BEC8E90}.Debug|x64.Build.0 = Debug|x64
+		{F512D8E4-3926-4B98-A5B3-60F51BEC8E90}.Debug|x86.ActiveCfg = Debug|Win32
+		{F512D8E4-3926-4B98-A5B3-60F51BEC8E90}.Debug|x86.Build.0 = Debug|Win32
+		{F512D8E4-3926-4B98-A5B3-60F51BEC8E90}.Release|x64.ActiveCfg = Release|x64
+		{F512D8E4-3926-4B98-A5B3-60F51BEC8E90}.Release|x64.Build.0 = Release|x64
+		{F512D8E4-3926-4B98-A5B3-60F51BEC8E90}.Release|x86.ActiveCfg = Release|Win32
+		{F512D8E4-3926-4B98-A5B3-60F51BEC8E90}.Release|x86.Build.0 = Release|Win32
+		{C95A161C-84B1-4247-90F9-78405DF9D590}.Debug|x64.ActiveCfg = Debug
+		{C95A161C-84B1-4247-90F9-78405DF9D590}.Debug|x86.ActiveCfg = Release
+		{C95A161C-84B1-4247-90F9-78405DF9D590}.Debug|x86.Build.0 = Release
+		{C95A161C-84B1-4247-90F9-78405DF9D590}.Release|x64.ActiveCfg = Release
+		{C95A161C-84B1-4247-90F9-78405DF9D590}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A54CD53-9838-44CE-898F-64D3C9607415}
+	EndGlobalSection
+EndGlobal
